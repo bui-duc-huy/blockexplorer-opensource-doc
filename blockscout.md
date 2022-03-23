@@ -1,6 +1,5 @@
 # Build blockscout with docker
 
-1. Create env variable
 - Run chain
 ```sh
 ./build/bin/geth --datadir ~/.ethereum/myprivatenet --networkid 15 --http --http.vhosts="*" --http.api="eth,net,web3,personal,txpool,miner" --gcmode="archive"
